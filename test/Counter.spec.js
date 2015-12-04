@@ -11,7 +11,7 @@ describe('Counter', () => {
 
   describe('action', () => {
     describe('increment', () => {
-      it('should increment 2 numbers', () => {
+      it('should increment two numbers', () => {
         const store = newStore()
         expect(store.getState()).to.equal(0, 'initial')
         store.dispatch(increment())
