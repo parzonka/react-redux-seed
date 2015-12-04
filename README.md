@@ -17,7 +17,8 @@ React webpack template using redux implementing a simple counter app.
 
 * Run `npm i` to install the dependencies
 * Run `npm run dev` to start the dev server
-* Run `npm test` to start continuous testing mode
+* Run `npm run ct` to start continuous testing mode
+* Run `npm test` to perform a single test run
 * Run `npm run build` to create a minified build
 
 ## TODO
