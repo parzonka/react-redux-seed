@@ -15,7 +15,7 @@ const Component = React.createClass({
     );
   },
 
-   propTypes: {
+  propTypes: {
     onIncrement: React.PropTypes.func.isRequired,
     onAdd: React.PropTypes.func.isRequired,
     count: React.PropTypes.number.isRequired
