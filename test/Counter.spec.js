@@ -4,7 +4,7 @@ const Simulate = ReactTestUtils.Simulate
 import { Provider } from 'react-redux'
 import { newStore } from '../src/Store'
 
-import Component from '../src/Counter/Component.jsx'
+import Component from '../src/Counter/Counter.jsx'
 import { increment, add } from '../src/Counter/Actions'
 
 describe('Counter', () => {
