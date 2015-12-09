@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import Component from './Counter/Component'
 import { Provider } from 'react-redux'
 import { newStore } from '../src/Store'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const store = newStore();
 
